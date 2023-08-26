@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <title>Foodie</title>
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-sm-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-1 fw-bolder" style="color: red" href="#"
+          >Foodie</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recipies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="mybtn_search" type="submit">Search</button>
+            <button class="mybtn_sign">Sign in</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="header">
+      <div class="headline">
+        <h1 id="main_heading">
+          Get your cuisine delivered right to
+          <span id="your_door">your door</span>
+        </h1>
+        <p>
+          Food that is delivered on the right time. The trendy food delivery
+          partner. Goodfood is what we deliver. Your hunger companion.
+        </p>
+        <button class="mybtn_search" id="exp_food">Explore Food</button>
+      </div>
+      <div class="headline_image">
+        <img
+          src="https://cdni.iconscout.com/illustration/premium/thumb/delivery-boy-2996656-2500688.png"
+          alt="img"
+        />
+      </div>
+    </div>
+
+    <div class="marketing">
+      <div class="adv_card">
+        <h2>Why we are Best in our Town</h2>
+        <p>
+          Whole grains and low fat dairy can help reduce your risk of heart
+          diseases.
+        </p>
+      </div>
+      <div class="adv_card">
+        <img
+          src="https://img.freepik.com/premium-photo/falling-ham-burger-with-floating-ingredients-3d-design-realistic-burger-abstract-background_667286-282.jpg?w=2000"
+          alt="img"
+        />
+        <h3>Choose you favourite food</h3>
+      </div>
+      <div class="adv_card">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/022/182/785/non_2x/food-delivery-fast-and-tasty-illustration-vector.jpg"
+          alt="img"
+        />
+        <h3>Get delivery at doorstep in 10 min</h3>
+      </div>
+      <div class="adv_card">
+        <img
+          src="https://media.istockphoto.com/id/1257919853/vector/a-young-man-rating-feedback-of-customers-useful-reviews-for-customers-choice-rating-review.jpg?s=1024x1024&w=is&k=20&c=9bKz_6CV172ok9QsvoGI71EJMpbhScJ662ouCnVwSZc="
+          alt="img"
+        />
+        <h3>We have 400+ review in our app</h3>
+      </div>
+    </div>
+
+    <div class="food_display_container">
+      <div class="food_display">
+        <h1>Try our Special Recipies</h1>
+        <div class="food_cat">
+          <h6 class="cat_name">Fast Food</h6>
+          <h6 class="cat_name">Rice Menu</h6>
+          <h6 class="cat_name">Dessert</h6>
+          <h6 class="cat_name">Coffee</h6>
+          <h6 class="cat_name">Pizza</h6>
+          <h6 class="cat_name">See All Products</h6>
+        </div>
+
+        <div class="item_panel">
+          <div class="item_card">
+            <img
+              src="https://content.jdmagicbox.com/comp/delhi/r6/011pxx11.xx11.220423161158.c7r6/catalogue/kfc-delhi-fried-chicken-restaurants-0fhtq4jgdl.jpg"
+              alt="img"
+            />
+            <h6 class="item_name">Crispy Fried Chicken</h6>
+            <p>Price : <span class="price">$ 15.00</span></p>
+            <button class="mybtn_search">Add to Cart</button>
+          </div>
+
+          <div class="item_card">
+            <img
+              src="https://content.jdmagicbox.com/comp/delhi/r6/011pxx11.xx11.220423161158.c7r6/catalogue/kfc-delhi-fried-chicken-restaurants-0fhtq4jgdl.jpg"
+              alt="img"
+            />
+            <h6 class="item_name">Crispy Fried Chicken</h6>
+            <p>Price : <span class="price">$ 15.00</span></p>
+            <button class="mybtn_search">Add to Cart</button>
+          </div>
+          <div class="item_card">
+            <img
+              src="https://content.jdmagicbox.com/comp/delhi/r6/011pxx11.xx11.220423161158.c7r6/catalogue/kfc-delhi-fried-chicken-restaurants-0fhtq4jgdl.jpg"
+              alt="img"
+            />
+            <h6 class="item_name">Crispy Fried Chicken</h6>
+            <p>Price : <span class="price">$ 15.00</span></p>
+            <button class="mybtn_search">Add to Cart</button>
+          </div>
+          <div class="item_card">
+            <img
+              src="https://content.jdmagicbox.com/comp/delhi/r6/011pxx11.xx11.220423161158.c7r6/catalogue/kfc-delhi-fried-chicken-restaurants-0fhtq4jgdl.jpg"
+              alt="img"
+            />
+            <h6 class="item_name">Crispy Fried Chicken</h6>
+            <p>Price : <span class="price">$ 15.00</span></p>
+            <button class="mybtn_search">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="review_container">
+      <div class="reviews">
+        <div class="cust_list">
+          <div class="cust_card">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/023/821/731/original/human-face-of-a-man-in-abstract-style-cubic-portrait-drawing-for-graphics-poster-banner-vector.jpg"
+              alt="cust"
+            />
+            <div>
+              <h3>Harsh</h3>
+              <p>eSports Athlete</p>
+            </div>
+          </div>
+          <div class="cust_card">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/023/821/731/original/human-face-of-a-man-in-abstract-style-cubic-portrait-drawing-for-graphics-poster-banner-vector.jpg"
+              alt="cust"
+            />
+            <div>
+              <h3>Harsh</h3>
+              <p>eSports Athlete</p>
+            </div>
+          </div>
+          <div class="cust_card">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/023/821/731/original/human-face-of-a-man-in-abstract-style-cubic-portrait-drawing-for-graphics-poster-banner-vector.jpg"
+              alt="cust"
+            />
+            <div>
+              <h3>Harsh</h3>
+              <p>eSports Athlete</p>
+            </div>
+          </div>
+          <div class="cust_card">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/023/821/731/original/human-face-of-a-man-in-abstract-style-cubic-portrait-drawing-for-graphics-poster-banner-vector.jpg"
+              alt="cust"
+            />
+            <div>
+              <h3>Harsh</h3>
+              <p>eSports Athlete</p>
+            </div>
+          </div>
+          <div class="cust_card">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/023/821/731/original/human-face-of-a-man-in-abstract-style-cubic-portrait-drawing-for-graphics-poster-banner-vector.jpg"
+              alt="cust"
+            />
+            <div>
+              <h3>Harsh</h3>
+              <p>eSports Athlete</p>
+            </div>
+          </div>
+          <div class="cust_card">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/023/821/731/original/human-face-of-a-man-in-abstract-style-cubic-portrait-drawing-for-graphics-poster-banner-vector.jpg"
+              alt="cust"
+            />
+            <div>
+              <h3>Harsh</h3>
+              <p>eSports Athlete</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cust_info">
+          <h1 class="cust_heading">
+            What our Customers <span style="color: red">are saying</span>
+          </h1>
+          <div class="cust_name">
+            <h3>Harsh Raghav</h3>
+            <p>Developer</p>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam,
+            iusto ratione possimus quas corporis, molestiae nobis nesciunt
+            maxime culpa perspiciatis ad. Rem soluta modi eum suscipit quis,
+            quia unde obcaecati?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer_item">
+        <h3 class="red">Acciofood</h3>
+        <p>
+          Retail food delivery is a courier service in which a restaurent,
+          store, or independent food-delivery
+        </p>
+      </div>
+      <div class="footer_item">
+        <h6 class="red">Company</h6>
+        <br />
+        <p>About us</p>
+        <p>Blog</p>
+        <p>All Products</p>
+        <p>Location Map</p>
+      </div>
+      <div class="footer_item">
+        <h6 class="red">Services</h6>
+        <br />
+        <p>About us</p>
+        <p>Blog</p>
+        <p>All Products</p>
+        <p>Location Map</p>
+      </div>
+      <div class="footer_item">
+        <h6 class="red">Support</h6>
+        <br />
+        <p>About us</p>
+        <p>Blog</p>
+        <p>All Products</p>
+        <p>Location Map</p>
+      </div>
+      <div class="footer_item">
+        <h6 class="red">Contact</h6>
+        <br />
+        <p>About us</p>
+        <p>Blog</p>
+        <p>All Products</p>
+        <p>Location Map</p>
+      </div>
+    </div>
+  </body>
+</html>
